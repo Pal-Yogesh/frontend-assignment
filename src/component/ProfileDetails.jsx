@@ -18,6 +18,7 @@ function ProfileDetails({ activeTab }) {
   };
 
   useEffect(() => {
+    
     const content = contentRef.current;
     const scrollbar = scrollbarRef.current;
 
