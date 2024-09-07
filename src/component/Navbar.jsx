@@ -5,7 +5,7 @@ const tabs = ["About Me", "Experiences", "Recommended"];
 
 function Navbar({ activeTab, setActiveTab }) {
   return (
-    <div className="flex flex-wrap md:flex-nowrap space-x-2 p-2 bg-[#171717] rounded-3xl md:w-[611px] w-full md:h-[64px]">
+    <div className="flex flex-wrap md:flex-nowrap space-x-2 p-2 bg-[#171717] rounded-3xl md:w-[616px] w-full md:h-[64px]">
       {tabs.map((tab) => (
         <button
           key={tab}
