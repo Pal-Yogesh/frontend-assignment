@@ -27,14 +27,13 @@ function App() {
                 </div>
 
                 <div className="flex">
-                  <div className="sm:w-[43px] sm:h-[43px] lg:w-[32px] lg:h-[32px]  pt-20 px-1">
-                    <img src="./window.svg" alt="img" />
+                  <div className="  pt-20 px-1">
+                    <img src="./window.svg" alt="img" width={52} height={52}/>
                   </div>
                   <div className="pt-3">
                     <ProfileDetails activeTab={activeTab} />
                   </div>
-                  <div className="pt-10">
-                    <img src="./line.svg" alt="img" />
+                  <div className="">
                   </div>
                 </div>
               </div>
